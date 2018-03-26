@@ -3143,6 +3143,7 @@
 	.image-logo {
 		width: 300px;
 		height: 200px;
+		margin-bottom: 10px;
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: 50% 50%;
