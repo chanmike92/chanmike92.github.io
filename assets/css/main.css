@@ -1994,7 +1994,7 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -3136,7 +3136,10 @@
 
 	.skilltech > i {
 		margin: 25px;
+	}
 
+	.skilltech > img {
+		margin: 25px;
 	}
 
 	.image-logo {
@@ -3184,6 +3187,10 @@
 		background-image: url('../../images/dismike.png');
 	}
 
+	.dietcalc-logo {
+		background-image: url('../../images/dietcalc-3.png');
+	}
+
 	.word-invaders-logo {
 		background-image: url('../../images/word-invaders.png');
 	}
@@ -3194,4 +3201,15 @@
 
 	.bling-logo {
 		background-image: url('../../images/bling.png');
+	}
+
+	.redux {
+		height: 80px;
+		line-height: inherit;
+		width: 80px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		font-size: 24px;
+		content: " ";
 	}
